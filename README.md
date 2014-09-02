@@ -5,7 +5,11 @@ Code for extracting FITS spectra from a simulation of an Arcus X-ray spectrum.
 
 =================
 
-Arcus is a proposed X-ray grating spectrometer for the ISS.  This project will be python-based (more specifically largely astropy based) and will read the output of the simulator SIXTE (http://www.sternwarte.uni-erlangen.de/research/sixte/) when run for arcus and extract pha spectra.  The basic analysis steps were outlined by David Huenemoerder:
+Arcus is a proposed X-ray grating spectrometer for the ISS.  This project will be python-based (more specifically largely astropy based) and will read the output of the simulator SIXTE (http://www.sternwarte.uni-erlangen.de/research/sixte/) when run for arcus and extract pha spectra.  
+
+Basic Analysis Steps
+=================
+This is outlined by David Huenemoerder:
 
 1) Assume that we have a "Level 1" event file, which minimally
   contains the columns:
